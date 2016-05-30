@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("hao"));
         tabLayout.addTab(tabLayout.newTab().setText("wang"));
         List<android.support.v4.app.Fragment> fragments = new ArrayList<>();
-        for (int i = 0; i <4; i++) {
+        for (int i = 0; i <5; i++) {
             fragments.add(new com.example.administrator.tablayout1.ListFragment());
         }
         FragmentAdapter fragmentAdapter=new FragmentAdapter(getSupportFragmentManager(),fragments);
